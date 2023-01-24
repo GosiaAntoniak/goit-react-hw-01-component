@@ -11,13 +11,13 @@ para familiarizarse con las funciones opcionales y configurarlas.
 своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
 `«Create a new repository»`, как показано на изображении.
 
-![Creating repo from a template step 1](docs/template-step-1.png)
+![Creating repo from a template step 1](./assets/template-step-1.png)
 
 На следующем шаге откроется страница создания нового репозитория. Заполни поле
 его имени, убедись что репозиторий публичный, после чего нажми кнопку
 `«Create repository from template»`.
 
-![Creating repo from a template step 2](docs/template-step-2.png)
+![Creating repo from a template step 2](./assets/template-step-2.png)
 
 Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
 репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
@@ -51,7 +51,7 @@ A continuación, ve a la configuración del repositorio de GitHub (`Settings` >
 `Pages`) y selecciona distribuir la versión de producción de los archivos desde
 la carpeta `/root` de la rama `gh-pages`, si no se ha hecho automáticamente.
 
-![GitHub Pages settings](docs/repo-settings.png)
+![GitHub Pages settings](./assets/repo-settings.png)
 
 ### Estado de la implantación
 
@@ -65,7 +65,7 @@ El estado del último commit se indica con un icono junto al ID del commit.
 Se puede ver información de estado más detallada haciendo clic en el icono y en
 la ventana desplegable del enlace `Detalles`.
 
-![Deployment status](docs/deploy-status.png)
+![Deployment status](./assets/deploy-status.png)
 
 ### Página activa
 
@@ -94,7 +94,7 @@ principio y al final de la cadena son obligatorias.
 
 ## ¿Cómo funciona?
 
-![How it works](docs/how-it-works.png)
+![How it works](./assets/how-it-works.png)
 
 1. Después de cada push a la rama `main` del repositorio GitHub, se ejecuta un
    script especial (GitHub Action) del archivo `.github/workflows/deploy.yml`.

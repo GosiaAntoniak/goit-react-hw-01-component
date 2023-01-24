@@ -11,13 +11,13 @@ acquainted and configure additional features
 своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
 `«Create a new repository»`, как показано на изображении.
 
-![Creating repo from a template step 1](docs/template-step-1.png)
+![Creating repo from a template step 1](./assets/template-step-1.png)
 
 На следующем шаге откроется страница создания нового репозитория. Заполни поле
 его имени, убедись что репозиторий публичный, после чего нажми кнопку
 `«Create repository from template»`.
 
-![Creating repo from a template step 2](docs/template-step-2.png)
+![Creating repo from a template step 2](./assets/template-step-2.png)
 
 Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
 репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
@@ -50,7 +50,7 @@ Next, you need to go to the settings of the GitHub repository (`Settings` >
 `Pages`) and set the distribution of the production version of files from the
 `/root` folder of the `gh-pages` branch, if this was not done automatically.
 
-![GitHub Pages settings](docs/repo-settings.png)
+![GitHub Pages settings](./assets/repo-settings.png)
 
 ### Deployment status
 
@@ -64,7 +64,7 @@ ID.
 More detailed information about the status can be viewed by clicking on the
 icon, and in the drop-down window, follow the link `Details`.
 
-![Deployment status](docs/deploy-status.png)
+![Deployment status](./assets/deploy-status.png)
 
 ### Live page
 
@@ -93,7 +93,7 @@ the line are required.
 
 ## How it works
 
-![How it works](docs/how-it-works.png)
+![How it works](./assets/how-it-works.png)
 
 1. After each push to the `main` branch of the GitHub repository, a special
    script (GitHub Action) is launched from the `.github/workflows/deploy.yml`
